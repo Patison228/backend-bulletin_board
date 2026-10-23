@@ -12,7 +12,7 @@ Content-Type: application/json
     "price": 15000
 }
 
-### Создать объявление 2 (Будет проданным)
+### Создать объявление 2 
 POST {{base}}/api/ads
 Content-Type: application/json
 
