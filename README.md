@@ -7,21 +7,21 @@
 
 # Название проекта
 
-Тема №__: **...**. Одна фраза: что это и для кого.
+Тема №6: **Доска объявлений**. Сервис для публикации объявлений о продаже вещей и сбора откликов.
 
 | | |
 | --- | --- |
-| Главная сущность | ... |
-| Связанная сущность (1:N) | ... |
+| Главная сущность | Объявление (ad) |
+| Связанная сущность (1:N) | Отклик (response) |
 | Фишка | ... |
-| Стек | язык, фреймворк, база данных |
+| Стек | Python, FastAPI, хранение в памяти |
 
 ## Как запустить
 
 ```bash
 # 1. Клонируем репозиторий 
-git clone https://github.com/Patison228/backend-bulletin_board
-cd backend-bulletin-board
+git clone https://github.com/Patison228/backend-vatrunin-bulletin_board
+cd backend-vatrunin-bulletin-board
 
 # 2. Создаем виртуальное окружение
 python -m venv .venv
